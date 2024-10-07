@@ -2,8 +2,6 @@ version: 1
 services:
   - type: web
     name: consulta-a-number
-    env: node
+    env: docker
     plan: free
-    buildCommand: npm install && npm run build
-    startCommand: npm start
-    repo: https://github.com/EduardoCode1/VM-update
+    dockerfile: Dockerfile
