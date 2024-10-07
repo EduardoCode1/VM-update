@@ -1,0 +1,39 @@
+.client-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .client-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .client-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  .client-item:last-child {
+    border-bottom: none;
+  }
+  
+  .client-item:hover {
+    background-color: #f9f9f9;
+  }
+  
